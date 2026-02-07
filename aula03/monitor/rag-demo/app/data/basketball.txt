@@ -1,0 +1,15 @@
+Basquete e um esporte coletivo jogado por duas equipes de cinco jogadores cada.
+O objetivo e marcar pontos ao arremessar a bola na cesta do time adversário.
+Uma cesta convertida dentro da linha de tres vale dois pontos, fora vale tres.
+Lances livres valem um ponto e acontecem apos faltas.
+A NBA e a liga profissional mais conhecida, com times dos EUA e Canada.
+O tempo de posse de bola na NBA e de 24 segundos; na FIBA também e 24.
+Drible e o ato de quicar a bola para se deslocar, e e obrigatório para andar com a bola.
+Faltas pessoais ocorrem por contato ilegal; excesso de faltas pode gerar lances livres.
+Rebotes sao as posses de bola apos arremessos errados.
+Assistência e um passe que resulta diretamente em uma cesta.
+Posições clássicas incluem armador, ala-armador, ala, ala-pivô e pivô.
+O pick-and-roll e uma jogada em que um jogador faz bloqueio e rola para a cesta.
+Na defesa homem-a-homem, cada defensor marca um adversário especifico.
+Na defesa por zona, defensores cobrem areas em vez de jogadores.
+O basquete 3x3 e uma versão com tres jogadores por equipe, jogada em meia quadra.
