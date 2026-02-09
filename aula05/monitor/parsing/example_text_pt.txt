@@ -1,0 +1,14 @@
+# Exemplo (texto)
+
+Este é um exemplo simples para mostrar limpeza de texto.
+- Normalização de espaços
+- Remoção de linhas repetidas (header/footer)
+
+HEADER DA EMPRESA
+Política de Privacidade — Seção 1
+HEADER DA EMPRESA
+
+A coleta de dados ocorre quando você usa o serviço.
+A retenção padrão é de 90 dias.
+
+FOOTER — Página 1
