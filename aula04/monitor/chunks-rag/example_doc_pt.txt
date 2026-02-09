@@ -1,0 +1,23 @@
+# Mini-guia: Chunking em RAG
+
+RAG (Retrieval-Augmented Generation) combina recuperação de trechos relevantes com geração de resposta.
+Na prática, o modelo não lê o documento inteiro: ele vê apenas os trechos (chunks) que o retrieval retorna.
+
+## O que é um chunk?
+Um chunk é uma unidade de texto que será indexada (vira embedding + metadados) e depois recuperada no top-k.
+Se o chunk for grande demais, ele mistura tópicos e o embedding fica "diluído".
+Se o chunk for pequeno demais, ele pode perder informação essencial e a evidência fica incompleta.
+
+## Overlap (sobreposição)
+Overlap é repetir um pedaço do final de um chunk no começo do próximo.
+Isso ajuda quando a resposta depende de duas frases próximas que poderiam cair em chunks diferentes.
+Por outro lado, overlap alto aumenta redundância e pode trazer vários chunks quase iguais no top-k.
+
+## Exemplo (fronteira ruim)
+Imagine que a definição está no fim de um parágrafo e a condição está no começo do parágrafo seguinte.
+Sem overlap, você pode recuperar só metade do raciocínio.
+
+## Diagnóstico
+Se o top-k traz trechos parecidos, overlap pode estar alto.
+Se o top-k traz trechos longos e genéricos, o chunk pode estar grande demais.
+Se o top-k traz trechos curtos que não respondem, o chunk pode estar pequeno demais.
